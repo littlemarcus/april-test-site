@@ -17,6 +17,7 @@ exports.createPages = async ({ actions }) => {
   }),
   createRedirect({
     fromPath: `/old-blog/*`,
-    toPath: `/en/blog/*`
+    toPath: `/en/blog/*`,
+    isPermanent: true
   })
 }
